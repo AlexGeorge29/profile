@@ -1,0 +1,86 @@
+body {
+  color: #D9EFD0;
+  background: #C8FFBE;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#pict_format{
+  width: 500px
+  /*height: 30px;*/
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+  color: #074C2A;
+  font-size: 40px;
+}
+
+h2 {
+  color: #074C2A;
+  font-size: 20px;
+}
+
+h3 {
+  color: #074C2A;
+  font-size: 17px;
+}
+
+a {
+  color: #B0ABA8;
+  text-decoration: none;
+}
+
+/* When the mouse is hovering over the element */
+a:hover {
+  color: #DD5555;
+}
+
+
+.card {
+  background: #1D1E14;
+  width: 100%;
+  margin: 10px auto;
+  padding: 50px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 20px 10px 15px rgba(50, 0, 50, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 100px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 50px;
+  }
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
